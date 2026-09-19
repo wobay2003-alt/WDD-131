@@ -1,41 +1,68 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     background: #e4e4e4;
     font-family: Georgia, serif;
 }
 
-/* Blue top section */
-.top-banner {
-    background: #003366;
-    color: white;
-    text-align: center;
-    padding: 1.5rem 1rem;
-    letter-spacing: 1px;
-}
 
-/* White card */
-.mission-card {
+.paper {
     background: white;
-    max-width: 700px;
-    margin: 2rem auto;
-    padding: 2.5rem;
-    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 2.2rem 2.8rem; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
 }
 
-.intro-italic {
-    font-style: italic;
+
+.mission-title {
+    text-align: center;
+    font-size: 1.55rem;
+    margin: 0;
+    margin-bottom: 0.4rem; 
+    color: black;
 }
+
+.school-name {
+    text-align: center;
+    font-size: 1.15rem;
+    margin: 0;
+    margin-bottom: 1.8rem; 
+    color: #003366;
+}
+
+
+.content p,
+.paper p {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem; 
+    line-height: 1.55;
+}
+
+.italic {
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
 
 ol {
     margin-left: 1.2rem;
+    margin-top: 0.5rem;
 }
+
+ol li {
+    margin-bottom: 1 rem;
+    line-height: 1.5;
+}
+
 
 .logo-area {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem; 
 }
 
 .logo-area img {
-    width: 150px;
+    width: 130px;
 }
