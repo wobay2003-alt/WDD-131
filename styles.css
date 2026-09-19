@@ -1,69 +1,41 @@
-/* Page layout */
 body {
     margin: 0;
     padding: 0;
-    font-family: "Georgia", serif;
     background: #e4e4e4;
+    font-family: Georgia, serif;
 }
 
-.page {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Blue top section */
+.top-banner {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    letter-spacing: 1px;
 }
 
-/* Mission card */
+/* White card */
 .mission-card {
-    background: #ffffff;
-    padding: 3rem 3.5rem;
+    background: white;
     max-width: 700px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
-    text-align: left;
-}
-
-/* Headings */
-.mission-card h1 {
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-}
-
-.mission-card h2 {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-}
-
-/* Text */
-.mission-card p {
-    line-height: 1.6;
-    margin-bottom: 1rem;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
 }
 
 .intro-italic {
     font-style: italic;
 }
 
-/* List */
-.mission-card ol {
-    padding-left: 1.2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
+ol {
+    margin-left: 1.2rem;
 }
 
-.mission-card li {
-    margin-bottom: 0.7rem;
-}
-
-/* Logo */
 .logo-area {
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .logo-area img {
-    max-width: 160px;
+    width: 150px;
 }
